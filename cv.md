@@ -30,9 +30,15 @@
 
 >  from 2022: RS School, Frontend development;  
 
-
 ### Employment experience  
-
 
 > 2000 "LUKoil" Co. - chief expert IT dept;  
 > 2001-2021 - employment in the field of marine transport, logistics and construction by Chief; 
+
+### Additional information
+
+* Russian language: native speaker  
+* English language: B1-B2  
+* Polish language: B1-B2  
+* Dual permanent residence: Russia / Poland  
+* Driver's license cat. B 

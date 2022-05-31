@@ -9,7 +9,7 @@
 ### Residenсe
 
 * al.Wyścigowa 4-29b, Warszawa - Mokotów, 02-681, Poland  
-* str.Geroev Desantnikov 65/1-64, Novorossiysk 353920 Russia
+* str.Geroev Desantnikov 65/1-64, Novorossiysk 353920, Russia
 
 ### E-mail
 

@@ -1,0 +1,412 @@
+h1,
+h2,
+a,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./FONTS/InterRegular.eot");
+  src: url("./FONTS/InterRegular.eot") format("embedded-opentype"), url("./FONTS/InterRegular.woff") format("woff"), url("./FONTS/InterRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Anton";
+  src: url("./FONTS/Anton-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: Anton;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF4D;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Anton;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CA4444;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(./IMG/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+  width: 1024px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #CA4444;
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Anton";
+  font-size: 77px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CA4444;
+}
+
+.header__navigation {
+  display: flex;
+}
+
+.header__navigation_items {
+  display: flex;
+  padding-top: 130px;
+  column-gap: 20px;
+}
+
+.header__navigation_items a {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #DDDDDD;
+}
+
+.header__navigation_items a:hover {
+  color: #CA4444;
+  transition: 0.3s;
+}
+
+.header-contacts {
+  padding-top: 52px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.contacts-details {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #DDDDDD;
+}
+
+.contacts-details svg {
+  padding-right: 10px;
+}
+
+.e-mail {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  vertical-align: middle;
+  color: #DDDDDD;
+}
+
+.e-mail:hover {
+  color: #CA4444;
+  transition: 0.3s;
+}
+
+.e-mail:hover svg path {
+  fill: #CA4444;
+  transition: 0.3s;
+}
+
+.job-position {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CA4444;
+}
+
+.main-content {
+  display: flex;
+  align-content: center;
+  column-gap: 40px;
+  box-sizing: border-box;
+}
+
+.main-photo {
+  align-self: center;
+}
+
+.main-info {
+  width: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+
+.main-info h2:hover {
+  color: #DDDDDD;
+}
+
+.main-info-particulars p,
+.main-info-particulars li,
+.main-info-particulars ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #DDDDDD;
+}
+
+.skills__content {
+  margin-top: 10px;
+  display: flex;
+}
+
+.skills__content_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 20px;
+  width: 314px;
+  margin-right: 50px;
+}
+
+.skills__content_list_item {
+  display: flex;
+  align-items: center;
+  height: 43px;
+  font-family: 'Anton';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CA4444;
+}
+
+.skills__content_code_title {
+  margin-bottom: 10px;
+}
+
+.skills__content_code_content {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #DDDDDD;
+}
+
+.skills__content_myway {
+  width: 314px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.skills__content_myway_content {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #DDDDDD;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.education,
+.experience,
+.skills {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.education h2,
+.experience h2,
+.skills h2 {
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #CA4444;
+}
+
+.education h2:hover,
+.experience h2:hover,
+.skills h2:hover {
+  color: #DDDDDD;
+}
+
+.activity-particulars {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-item {
+  display: flex;
+  column-gap: 40px;
+  padding: 20px 0 20px 0;
+}
+
+.activity-years {
+  flex: 1 0 314px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.activity-description {
+  flex: 2 0 629px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.paragrath-title {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CA4444;
+}
+
+.paragrath {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #DDDDDD;
+}
+
+.footer {
+  display: flex;
+  border-top: 4px solid #CA4444;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+.footer__details {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #DDDDDD;
+}
+
+.footer__details a {
+  color: #DDDDDD;
+}
+
+.footer__details svg {
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.footer__details_rsschool svg .st0 {
+  fill: #fff;
+}
+
+.footer__details_rsschool svg .st1 {
+  clip-path: url(#SVGID_2_);
+}
+
+.footer__details_rsschool svg .st2 {
+  clip-path: url(#SVGID_4_);
+}
+
+.footer__details_rsschool svg .st3 {
+  clip-path: url(#SVGID_6_);
+}
+
+.footer__details_rsschool svg .st4 {
+  clip-path: url(#SVGID_8_);
+}
+
+.footer__details_rsschool svg .st5 {
+  fill: #ddd;
+  stroke: #ddd;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.footer__details_rsschool svg .st6 {
+  clip-path: url(#SVGID_8_);
+}
+
+.footer__details_rsschool svg .st6,
+.footer__details_rsschool svg .st7 {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.footer__details_rsschool svg .st8,
+.footer__details_rsschool svg .st9 {
+  clip-path: url(#SVGID_10_);
+}
+
+.footer__details_rsschool svg .st9 {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+/*# sourceMappingURL=style.css.map */
